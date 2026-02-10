@@ -95,6 +95,21 @@ ul, ol{
 /* Features */
 .features-section {
 }
+
+.visually-hidden,
+.read-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .section-title {
     font-weight: 700;
     font-size: 36px;
