@@ -96,7 +96,8 @@ ul, ol{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 1.12px;
-    width: 496;
+    width: 496px;
+    margin-bottom: 48px;
 }
 .hero-button {
     background-color: #4D5AE5;
@@ -133,6 +134,7 @@ ul, ol{
  width: 264px;
 }
 .feature-name {
+    margin-bottom: 8px;
 }
 .features-text {
     color:#434455;
@@ -145,6 +147,13 @@ ul, ol{
 }
 .team-list {
     background-color: #FFFFFF;
+    width: 264px;
+}
+.team-img{
+margin-bottom: 32px;
+}
+.team-div{
+padding-bottom: 32px;
 }
 .team-name {
     font-size: 20px;
@@ -152,6 +161,7 @@ ul, ol{
     text-align: center;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 .team-prof {
     text-align: center;
@@ -163,6 +173,7 @@ ul, ol{
 .portfolio-section {
 }
 .portfolio-list {
+    width: 360px;
 }
 .portfolio-name {
 }
