@@ -1,4 +1,4 @@
-/* Global */
+/* #region Global */
 h1,
 h2,
 h3,
@@ -40,7 +40,21 @@ a{
 ul, ol{
     list-style-type: none;
 }
-/* Header */
+.container{
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.72px;
+}
+/* #endregion*/
+
+/* #region Header */
 .header {
 }
 .logo {
@@ -69,7 +83,9 @@ ul, ol{
 .contacts:focus, .contacts:hover{
     color:#404BBF;
 }
-/* Hero */
+/* #endregion */
+
+/* #region Hero */
 .hero-section {
     background-color: #2E2F42;
 }
@@ -80,6 +96,7 @@ ul, ol{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 1.12px;
+    width: 496;
 }
 .hero-button {
     background-color: #4D5AE5;
@@ -92,7 +109,9 @@ ul, ol{
 .order:hover, .order:focus{
     background-color: #404BBF;
 }
-/* Features */
+/* #endregion */
+
+/* #region Features */
 .features-section {
 }
 
@@ -110,19 +129,17 @@ ul, ol{
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.72px;
+.fearure-list{
+ width: 264px;
 }
 .feature-name {
 }
 .features-text {
     color:#434455;
 }
-/* Team */
+/* #endregion */
+
+/* #region Team */
 .team-section {
     background-color: #F4F4FD;
 }
@@ -140,7 +157,9 @@ ul, ol{
     text-align: center;
     color:#434455;
 }
-/* Portfolio */
+/* #endregion */
+
+/* #region Portfolio */
 .portfolio-section {
 }
 .portfolio-list {
@@ -150,7 +169,9 @@ ul, ol{
 .portfolio-text {
     color: #434455;
 }
-/* Footer */
+/* #endregion */
+
+/* #region Footer */
 .footer {
     background-color: #2E2F42;
 }
@@ -166,3 +187,4 @@ ul, ol{
 .slogan {
     color: #F4F4FD;
 }
+/* #endregion */
