@@ -12,12 +12,15 @@ p{
 }
 ol,
 ul{
+  list-style-type: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 img{
     display: block;
+    height:auto;
+    max-width: 100%;;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -44,6 +47,7 @@ ul, ol{
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    border:2px solid tomato
 }
 .section-title {
     font-weight: 700;
@@ -91,7 +95,6 @@ ul, ol{
 }
 .page-title {
     color:#FFFFFF;
-    text-align: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
