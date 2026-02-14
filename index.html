@@ -58,20 +58,20 @@
         <section class="features-section">
             <div class="container">
                 <h2 class="visually-hidden">Our Features</h2>
-                <ul>
-                    <li class="fearure-list">
+                <ul class="feature-list">
+                    <li class="feature-item">
                         <h3 class="feature-name">Strategy</h3>
                         <p class="features-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
                     </li>
-                    <li class="fearure-list">
+                    <li class="feature-item">
                         <h3 class="feature-name">Punctuality</h3>
                         <p class="features-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                     </li>
-                    <li class="fearure-list">
+                    <li class="feature-item">
                         <h3 class="feature-name">Diligence</h3>
                         <p class="features-text">Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
                     </li>
-                    <li class="fearure-list">
+                    <li class="feature-item">
                         <h3 class="feature-name">Technologies</h3>
                         <p class="features-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                     </li>
@@ -80,12 +80,12 @@
         </section>
     <!-- #endregion -->
 
-<!-- #region Team -->
+<!-- #region Teamitem
         <section class="team-section">
             <div class="container">
                 <h2 class="section-title">Our Team</h2>
-                <ul>
-                    <li class="team-list">
+                <ul class="team-list">
+                    <li class="team-item">
                         <img src="./images/designer.jpg"
                         alt="Product Designer"
                         width="264"
@@ -97,7 +97,7 @@
                             <p class="team-prof">Product Designer</p>
                         </div>
                     </li>
-                    <li class="team-list">
+                    <li class="team-item">
                         <img src="./images/frontdev.jpg"
                         alt="Frontend Developer"
                         width="264"
@@ -109,7 +109,7 @@
                             <p class="team-prof">Frontend Developer</p>
                         </div>
                     </li>
-                    <li class="team-list">
+                    <li class="team-item">
                         <img src="./images/marketing.jpg"
                         alt="Marketing"
                         width="264"
@@ -121,7 +121,7 @@
                             <p class="team-prof">Marketing</p>
                         </div>
                     </li>
-                    <li class="team-list">
+                    <li class="team-item">
                         <img src="./images/uidesign.jpg"
                         alt="UI Designer"
                         width="264"
@@ -142,60 +142,78 @@
         <section class="portfolio-section">
             <div class="container">
                 <h2 class="section-title">Our Portfolio</h2>
-                <ul>
-                    <li class="portfolio-list">
+                <ul class="portfolio-list">
+                    <li class="portfolio-item">
                         <img src="./images/bankingapp.jpg"
                         alt="Banking App"
                         width="360"
                         height="300"
+                        class="port-img"
                         />
-                        <h3 class="portfolio-name">Banking App</h3>
-                        <p class="portfolio-text">App</p>
+                        <div class="portfolio-div">
+                            <h3 class="portfolio-name">Banking App</h3>
+                            <p class="portfolio-text">App</p>
+                        </div>
                     </li>
-                    <li class="portfolio-list">
+                    <li class="portfolio-item">
                         <img src="./images/cash.jpg"
                         alt="Cashless Payment"
                         width="360"
                         height="300"
+                        class="port-img"
                         />
-                        <h3 class="portfolio-name">Cashless Payment</h3>
-                        <p class="portfolio-text">Marketing</p>
+                        <div class="portfolio-div">
+                            <h3 class="portfolio-name">Cashless Payment</h3>
+                            <p class="portfolio-text">Marketing</p>
+                        </div>
                     </li>
-                    <li class="portfolio-list">
+                    <li class="portfolio-item">
                         <img src="./images/meditation.jpg"
                         alt="Meditation"
                         width="360"
                         height="300"
+                        class="port-img"
                         />
-                        <h3 class="portfolio-name">Meditation App</h3>
-                        <p class="portfolio-text">App</p>
+                        <div class="portfolio-div">
+                            <h3 class="portfolio-name">Meditation App</h3>
+                            <p class="portfolio-text">App</p>
+                        </div>
                     </li>
-                    <li class="portfolio-list">
+                    <li class="portfolio-item">
                         <img src="./images/taxi.jpg"
                         alt="Taxi Service"
                         width="360"
                         height="300"
+                        class="port-img"
                         />
-                        <h3 class="portfolio-name">Taxi Service</h3>
-                        <p class="portfolio-text">Marketing</p>
+                        <div class="portfolio-div">
+                            <h3 class="portfolio-name">Taxi Service</h3>
+                            <p class="portfolio-text">Marketing</p>
+                        </div>
                     </li>
-                    <li class="portfolio-list">
+                    <li class="portfolio-item">
                         <img src="./images/screen.jpg"
                         alt="Screen Illustrations"
                         width="360"
                         height="300"
+                        class="port-img"
                         />
-                        <h3 class="portfolio-name">Screen Illustrations</h3>
-                        <p class="portfolio-text">Design</p>
+                        <div class="portfolio-div">
+                            <h3 class="portfolio-name">Screen Illustrations</h3>
+                            <p class="portfolio-text">Design</p>
+                        </div>
                     </li>
-                    <li class="portfolio-list">
+                    <li class="portfolio-item">
                         <img src="./images/online-cours.jpg"
                         alt="Online Courses"
                         width="360"
                         height="300"
+                        class="port-img"
                         />
-                        <h3 class="portfolio-name">Online Courses</h3>
-                        <p class="portfolio-text">Marketing</p>
+                        <div class="portfolio-div">
+                            <h3 class="portfolio-name">Online Courses</h3>
+                            <p class="portfolio-text">Marketing</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -207,8 +225,10 @@
 <!-- #region Footer -->
     <footer class="footer">
         <div class="container">
-            <a class="logo" href="./index.html" target="_self">Web<span class="footer-accent">Studio</span></a>
-            <p class="slogan">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+            <div class="footer-container">
+                <a class="logo" href="./index.html" target="_self">Web<span class="footer-accent">Studio</span></a>
+                <p class="slogan">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+            </div>
         </div>
     </footer>
 <!-- #endregion -->
