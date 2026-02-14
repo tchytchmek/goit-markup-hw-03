@@ -48,10 +48,9 @@ ul, ol{
     list-style-type: none;
 }
 .container{
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    /* border:2px solid tomato */
+  max-width: 1158px;
+  padding: 0 15px;  
+  margin: 0 auto;
 }
 .section-title {
     font-weight: 700;
