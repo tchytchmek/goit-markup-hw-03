@@ -101,7 +101,7 @@ ul, ol{
 .nav-ref{
     font-weight: 500;
     display: block;
-    padding: 24px 16px;
+    padding: 24px 0;
     height: 100%;
     color:#2E2F42;
 }
@@ -156,8 +156,9 @@ ul, ol{
     display: block;
     padding: 16px 32px;
     border-radius: 4px;
+    border: none;
 }
-.hero-button:hover, .order:focus{
+.hero-button:hover, .hero-button:focus{
     background-color: #404BBF;
     border: none;
 }
@@ -212,6 +213,7 @@ ul, ol{
     background-color: #FFFFFF;
     width: 264px;
     border-radius: 0 0 4px 4px;
+    border-top: none;
 }
 .team-img{
 
